@@ -21,7 +21,7 @@ const lifeRulesObj = {
     status: false,
     age: 20,
     demands: [
-        'car', 'girlfriend', '==>> $4B dollar'
+        'car', 'friend', '==>> $4B dollar'
     ],
     successArray: [
         2, 4, 5, 10
@@ -47,7 +47,7 @@ const lifeRulesObj = {
 
         else
         {
-            return `fuck you ${ name }, you have so much demand you can't have these: ${ demands[ 1 ] } included ${demands[0]}`
+            return `you ${ name }, you have so much demand you can't have these: ${ demands[ 1 ] } included ${demands[0]}`
         }
     }
 };
