@@ -1,4 +1,4 @@
-const myMap = new Map()
+const myMap:any = new Map()
 
 myMap.set( 'key1', 23467 )
 myMap.set( 'states', 'code' )
