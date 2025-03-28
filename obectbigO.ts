@@ -3,7 +3,7 @@ function isAlphanumeric(input: string): boolean {
     return alphanumericRegex.test( input );
 }
 
-function countString ( string: string )
+function countString ( string: string ):Object
 {
     const eachString = string.toLowerCase().split( '' )
     
